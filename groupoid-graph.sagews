@@ -25,12 +25,13 @@ def StoPlot(k,t,contour_list,color='darkblue'):
                      plot_points=200,
                      aspect_ratio=1,
                      figsize=8)
+︡c7364758-6a9a-4577-ae4c-3df537d8832a︡
 ︠0df52fef-76e7-4322-9372-4876a58d0fba︠
 S=StoPlot(2,s,contour_list,color='darkred')
 T=StoPlot(2,t,contour_list,color='darkblue')
 Z=line([(-4,0),(4,0)],color="black")
 S+T+Z
-︡7ddac8f4-d16f-425b-bd66-322e970a91c3︡{"file":{"show":true,"uuid":"13c6d62a-6c69-4145-b393-e1678d786b22","filename":"/mnt/home/LsSc45Qc/.sage/temp/compute2a/22161/tmp_AwkKrz.png"}}︡
+
 ︠64de6482-1edc-4f12-a4aa-c5df2f8a6f4a︠
 T1=StoPlot(1,t,contour_list,color='darkblue')
 S1=StoPlot(1,s,contour_list,color='darkred')
@@ -39,6 +40,9 @@ Z+T1+S1
 ︡436029bb-84a6-4e0f-a205-dfde829dbe09︡{"file":{"show":true,"uuid":"9c598812-b688-4d71-8ae3-dd7693755c2c","filename":"/mnt/home/LsSc45Qc/.sage/temp/compute2a/26642/tmp_8yrfKb.png"}}︡
 ︠3f36e9f8-4a4d-478c-b16d-285f2ae21a90︠
 # T.SHOW_OPTIONS['transparent']=True
+
+
+︠94ee737e-5885-4753-b2b7-0f90c38d62f2︠
 
 
 
