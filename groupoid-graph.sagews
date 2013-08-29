@@ -32,12 +32,18 @@ T=StoPlot(2,t,contour_list,color='darkblue')
 Z=line([(-4,0),(4,0)],color="black")
 S+T+Z
 
+︡2c4d8612-9957-461b-a9d1-a2f67b13806f︡{"file":{"show":true,"uuid":"13c6d62a-6c69-4145-b393-e1678d786b22","filename":"/mnt/home/LsSc45Qc/.sage/temp/compute2a/7722/tmp_IqlAa3.png"}}︡
+︠54d2f20f-7a38-4914-8b82-8fc114eb4fc8︠
+P=S+T+Z
+︠670547d6-a59d-47c0-9584-83e17e6955a6︠
+P.plot().save('sto2.png')
+︡bfc1f4bc-550c-4b9d-87c9-401547fbaee8︡
 ︠64de6482-1edc-4f12-a4aa-c5df2f8a6f4a︠
 T1=StoPlot(1,t,contour_list,color='darkblue')
 S1=StoPlot(1,s,contour_list,color='darkred')
 
 Z+T1+S1
-︡436029bb-84a6-4e0f-a205-dfde829dbe09︡{"file":{"show":true,"uuid":"9c598812-b688-4d71-8ae3-dd7693755c2c","filename":"/mnt/home/LsSc45Qc/.sage/temp/compute2a/26642/tmp_8yrfKb.png"}}︡
+︡98c9cd3c-17df-4d9e-a672-2d3598a6be3e︡{"file":{"show":true,"uuid":"9c598812-b688-4d71-8ae3-dd7693755c2c","filename":"/mnt/home/LsSc45Qc/.sage/temp/compute2a/7722/tmp_p9vWPL.png"}}︡{"file":{"show":true,"uuid":"2ca08475-e6b4-4ef7-ae14-d327f96771b3","filename":"/mnt/home/LsSc45Qc/.sage/temp/compute2a/7722/tmp_Ce0qpH.png"}}︡
 ︠3f36e9f8-4a4d-478c-b16d-285f2ae21a90︠
 # T.SHOW_OPTIONS['transparent']=True
 
